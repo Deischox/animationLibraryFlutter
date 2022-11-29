@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coffee Grinder
+* source:	https://sketchfab.com/3d-models/coffee-grinder-bcdd3c1ba9a04ec1b18b334fabe03190
+* author:	Mateusz Woliński (https://sketchfab.com/jeandiz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coffee Grinder" (https://sketchfab.com/3d-models/coffee-grinder-bcdd3c1ba9a04ec1b18b334fabe03190) by Mateusz Woliński (https://sketchfab.com/jeandiz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

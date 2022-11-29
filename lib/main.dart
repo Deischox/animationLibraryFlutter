@@ -1,6 +1,4 @@
-import 'dart:ffi';
-import 'dart:ui';
-
+import 'package:animation/testnewar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cube/flutter_cube.dart';
 import "dart:async";
@@ -86,8 +84,19 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             SizedBox(
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height * 0.7,
+              height: MediaQuery.of(context).size.height * 0.5,
               child: Cube(onSceneCreated: _onSceneCreated),
+            ),
+            SizedBox(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height * 0.5,
+              child: ElevatedButton(
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ObjectsOnPlanesWidget()),
+                ),
+                child: Text("AR"),
+              ),
             ),
             ElevatedButton(onPressed: changeArrow, child: Text("Next Step"))
           ],
